@@ -44,5 +44,11 @@ img {
 
 .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     color: white;
-    ;
+}
+
+/* 3. Hero / jumbotron */
+
+.jumbotron {
+    background-color: rgb(201, 200, 200);
+    height: 100vh;
 }
