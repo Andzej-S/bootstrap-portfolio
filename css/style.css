@@ -70,3 +70,25 @@ h1,
 .contact-btn a {
     color: white;
 }
+
+/* Footer */
+
+.footer {
+    background-color: rgb(41, 33, 33);
+    color: aliceblue;
+    height: 3rem;
+    margin-top: 10%;
+}
+
+.footer h4 {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.footer h4:hover {
+    text-shadow: 1px 1px green;
+}
+
+.btn:hover {
+    text-shadow: 1px 1px red;
+}
