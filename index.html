@@ -16,16 +16,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="#Work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#Skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#About">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -50,7 +50,7 @@
 
     <!-- Work start -->
     <div class="container">
-        <h2 class="font-weight-bold text-center display-1">Work</h2>
+        <h2 class="font-weight-bold text-center display-1" id="Work">Work</h2>
         <div class="row mx-auto">
             <div class="col">
                 <div class="card mb-2 mb-md-0" style="width: 18rem;">
@@ -79,7 +79,7 @@
                     <img src="/images/31343C.svg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Prework Study Guide</h5>
-                      <p class="card-text">A simple study guide on what to study</p>
+                      <p class="card-text">Created a simple study guide on what to study</p>
                       <hr class="my-4">
                       <a href="https://andzej-s.github.io/prework-study-guide/" target="_blank" class="btn btn-primary">View project</a>
                     </div>
@@ -91,7 +91,7 @@
     
     <!-- Skills start -->
     <div>
-        <h2 class="font-weight-bold text-center display-1">Skills</h2>
+        <h2 class="font-weight-bold text-center display-1" id="Skills">Skills</h2>
         <div class="container">
             <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="20" aria-valuemax="100">HTML</div>
@@ -126,24 +126,31 @@
 
     <!-- About / contact start -->
     <div class="container">
+        <h2 class="font-weight-bold text-center display-1" id="About">About Me</h2>
         <div class="row">
-            <div>
-                <h2>About Me</h2>
-                <p>I am a Front-End Developer who is passionate about the field and is willing to undertake any challenge. I enjoy this specialisation because it provides me with flexibility of expressing myself through code while achieving desired result.</p>
-            </div>
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-secondary">Phone</button>
-                <button type="button" class="btn btn-secondary">Email</button>
-                <button type="button" class="btn btn-secondary">GitHub</button>
-                <button type="button" class="btn btn-secondary">LinkedIn</button>
-            </div>
+                <div class="col-lg-10 col-md-8 col-xs-12">
+                    <p>I am a Front-End Developer who is passionate about the field and is willing to undertake any challenge. I enjoy this specialisation because it provides me with flexibility of expressing myself through code while achieving desired result.</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-xs-12" id="Contact">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="contact-btn btn btn-secondary">
+                            <a href="+44 0000 000000">Phone</a>
+                        </button>
+                        <button type="button" class="contact-btn btn btn-secondary">
+                            <a href="email@gmail.com">email</a>
+                        </button>
+                        <button type="button" class="contact-btn btn btn-secondary">
+                            <a href="https://github.com/Andzej-S">GitHub</a>
+                        </button>
+                    </div>
+                </div>
         </div>
     </div>
     <!-- About / contact end -->
 
     <!-- Footer start -->
     <footer class="footer">
-        <h3>&copy; 2022 Andžej Streckul</h3>
+        <h4>&copy; 2022 Andžej Streckul</h4>
         <a id="to-top"></a>
     </footer>
     <!-- Footer end -->

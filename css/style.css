@@ -64,3 +64,9 @@ h1,
     color: rgb(235, 232, 232);
     font-weight: 700;
 }
+
+/* 4. Contact */
+
+.contact-btn a {
+    color: white;
+}
