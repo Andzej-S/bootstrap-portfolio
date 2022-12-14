@@ -51,9 +51,7 @@ img {
 .jumbotron {
     background-color: rgb(201, 200, 200);
     height: 100vh;
-    background-image: url(/images/hero.jpg);
-    background-image: no-repeat;
-    background-size: 100%;
+    background-image: url(../images/hero.jpg);
     background-color: rgb(92, 179, 250);
     background-blend-mode: multiply;
     background-size: cover;
